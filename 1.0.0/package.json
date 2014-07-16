@@ -1,0 +1,9 @@
+{
+    "description": "Platform Utilities",
+    "directories": {
+        "lib": "."
+    },
+    "main": "org.favo.platform",
+    "name": "org.favo.platform",
+    "version": "1.0.0"
+}
