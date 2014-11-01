@@ -1,0 +1,12 @@
+version: 1.1.0
+description: Platform Utilities
+author: Mario Micklisch
+license: 
+copyright: 
+
+# these should not be edited
+name: org.favo.platform
+moduleid: org.favo.platform
+guid: 94783860-0cb8-11e4-9191-0800200c9a66
+platform: commonjs
+minsdk: 3.0.0
