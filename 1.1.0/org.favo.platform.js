@@ -61,7 +61,7 @@ function init () {
 		}
 	}
 
-	Platform.hasTouchId = (Ti.Platform.iOSVersion >= 8 && isTouchDevice);
+	Platform.hasTouchId = (Platform.iOSVersion >= 8 && isTouchDevice);
 	
 	// extend Ti.Platform with all the new data
 	Platform.extendTi = extendTi;
