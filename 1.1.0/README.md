@@ -13,5 +13,6 @@ A little commonjs helper for Platform in Titanium
     Platform.isAndroid
     Platform.isIos
     Platform.isIos7Plus
-	Platform.hasTouchId
     Platform.iPhoneDevice
+    Platform.isSimulator
+	Platform.hasTouchId

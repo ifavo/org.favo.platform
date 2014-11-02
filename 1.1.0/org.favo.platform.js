@@ -45,6 +45,7 @@ function init () {
 	Platform.isPhablet = isPhablet;
 	Platform.isPhone = (!isTablet && !isPhablet);
 	Platform.isAndroid = (osname === 'android');
+	Platform.isSimulator = (Ti.Platform.model === 'sdk' || Ti.Platform.model === 'google_sdk' || Ti.Platform.model === 'Simulator');
 	Platform.isIos = (osname === 'ipad' || osname === 'iphone' || osname === 'ipod');
 	Platform.isIos7 = (Platform.isIos && parseInt(Titanium.Platform.getVersion().split('.')[0]) == 7);
 	Platform.isIos7Plus = (Platform.isIos && parseInt(Titanium.Platform.getVersion().split('.')[0]) >= 7);
